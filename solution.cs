@@ -1,9 +1,2 @@
-using System;
-
-class Program
-{
-    static void Main()
-    {
-        Console.Write("Enter a digit string: ");
-        string digits = Console.ReadLine();
+Console.WriteLine("Number of ways to decode: " + CountDecoding(digits, digits.Length));
     }
